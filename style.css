@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+}
+/* Estilos gerais */
+.container {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Parte 1 */
+.parte1 .imagem img {
+    width: 100%;
+    height: auto;
+   
+}
+.conteudo img{
+    margin-top: -3%;
+    width: 100%;
+    height: auto;
+}
+.conteudo {
+    padding: 2%;
+}
+
+.texto1 h1 {
+    text-align: left;
+    font-size: 350%;
+    
+}
+
+.texto1 p{
+    text-align: left;
+    font-size: 200%;
+    margin-bottom: 3%;
+}
+
+#paragrafo{
+    font-family:sans-serif;
+    color: rgb(91, 89, 89);
+}
+
+.parte1 .fonte {
+    font-style: italic;
+    text-align: left;
+    color: rgb(138, 135, 135);
+    
+}
+.border-gradient {
+    width: 50%;
+    height: 4px;
+    background: linear-gradient(to right, #ec0076, #8202a9);
+    border-bottom: 3px solid transparent;
+    box-sizing: border-box;
+  }
+
+
+/* Parte 2 */
+.parte2 {
+    display: flex;
+    padding: 20px;
+    
+}
+.imagem2 {
+    width: 50%;
+}
+.conteudo3{
+    width: 50%;
+    
+}
+
+.parte2 .imagem2 img,
+.conteudo3 img {
+    width: 90%;
+    height: auto;
+    
+}
+
+.textoKobi p,
+.textoWhats p {
+    text-align: left;
+    margin-left: 5%;
+    font-size: 250%;
+    margin-top: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.parte2 .fonte {
+    font-size: 90%;
+    text-align: left;
+    margin-top: 2%;
+    margin-left: 5%;
+    font-style: italic;
+    color: rgb(138, 135, 135);
+}
+
+.border-gradient2 {
+    width: 50%;
+    height: 4px;
+    background: linear-gradient(to right, #ec0076, #8202a9);
+    border-bottom: 3px solid transparent;
+    box-sizing: border-box;
+    margin-top: 2%;
+    margin-left: 5%;
+  }
+
+/* Rodapé */
+.rodape img {
+    width: 100%;
+    height: auto;
+}
+.textoReservado{
+    color: rgb(101, 101, 101);
+}
+
+/*Responsidade */
+@media (max-width: 768px) {
+    .texto1 h1 {
+        font-size: 250%;
+    }
+    
+    .texto1 p,
+    .textoKobi p,
+    .textoWhats p {
+        font-size: 150%;
+    }
+    
+    .parte1 .fonte,
+    .parte2 .fonte {
+        font-size: 80%;
+    }
+    
+    .border-gradient,
+    .border-gradient2 {
+        width: 100%;
+        margin-left: 0;
+    }
+    
+    .parte2 {
+        flex-direction: column;
+        padding: 20px 0;
+    }
+    
+    .imagem2,
+    .conteudo3 {
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
